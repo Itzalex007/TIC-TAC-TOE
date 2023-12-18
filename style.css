@@ -6,7 +6,7 @@ body{
 }
 
 .heading{
-    background-color: navy;
+    background-color: red;
     height: 60px;
     display: flex;
     justify-content: center;
@@ -26,7 +26,7 @@ body{
 .infoBar{
 
     font-size: 30px;
-    color: navy;
+    color: red;
     font-weight: bold;
     padding: 41px 41px;
 }
@@ -40,10 +40,10 @@ body{
 #button{
     cursor: pointer;
     font-size: 20px;
-    border: solid 4px navy;
+    border: solid 4px red;
 border-radius: 11px;
 padding: 4px;
-color: navy;
+color: red;
 font-weight: bold;
 background-color: black;
 }
@@ -55,14 +55,14 @@ background-color: black;
     cursor: pointer;
     font-weight: bolder;
     font-size: 8vw;
-    color: navy;
+    color: red;
     display: grid;
     grid-template-columns: repeat(3,10vw);
     grid-template-rows: repeat(3,10vw);
 
 }
 .gameContainer > div {
-    border: solid navy 2px;
+    border: solid red 2px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -93,7 +93,7 @@ background-color: black;
 }
 
 .infoBar{font-size: 20px;
-    color: navy;
+    color: red;
     font-weight: bold;
     padding: 6px 89px;}
     .btn{padding: 24px 89px;}
